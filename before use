@@ -1,0 +1,15 @@
+change env to respective right ip address and port after running backend first.
+eg = [VITE_API_URL=http://192.168.x.x:4000]
+change the ip and port inside the vite api url for the website to run and work seamlessly.
+then,
+run backend in a powershell/terminal:
+cd server
+npm install
+npm start
+
+run front end in a different powershell/terminal.
+cd client
+npm install
+npm run dev
+
+enjoy.
